@@ -7,10 +7,10 @@ This repository contains three Google Apps Scripts that automates the handling o
 
 ## 📁 Repository Structure
 
-| File Name | Description | Link |
-|----------|-------------|------|
-| [`Code.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/create.gs>) | Handles creation of database, users, tables on MySQL instance. |
-| [`onFormSubmit.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/onFormSubmit.gs>) | Handles form submissions and append it to relevant sheet tabs. |
-| [`writeRecords.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/writeRecords.gs>) | Handles the logging of entries into respective tables in the database. |
+| File Name | Description |
+|----------|-------------|
+| [`Code.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/create.gs>) | Handles creation of database, users, tables on MySQL instance. 
+| [`onFormSubmit.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/onFormSubmit.gs>) | Handles form submissions and append it to relevant sheet tabs. 
+| [`writeRecords.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/writeRecords.gs>) | Handles the logging of entries into respective tables in the database. 
 
 ---
