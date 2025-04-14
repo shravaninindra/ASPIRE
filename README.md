@@ -15,21 +15,8 @@ This repository contains a Google Apps Script project that  automates the handli
 
 | File Name | Description | Link |
 |----------|-------------|------|
-| [`Code.gs`](<INSERT_LINK_HERE>) | Main script that listens to form submissions and routes data. |
-| [`AddMainRecord`](<INSERT_LINK_HERE>) | Handles logging to the "Landing Page" sheet. |
-| [`AddPublicationRecord`](<INSERT_LINK_HERE>) | Handles publication entries. |
-| [`AddDisseminationRecord`](<INSERT_LINK_HERE>) | Logs dissemination efforts. |
-| [`AddERCRecord`](<INSERT_LINK_HERE>) | Handles ERC Workshops and Webinars. |
-| [`AddERCK12Record`](<INSERT_LINK_HERE>) | Records K-12 outreach events. |
-| [`AddERCCommunityRecord`](<INSERT_LINK_HERE>) | Logs events for community colleges. |
-| [`AddERCUndergradRecord`](<INSERT_LINK_HERE>) | Records outreach for non-ERC undergrad students. |
-| [`AddImpactOnCurriculum`](<INSERT_LINK_HERE>) | Logs curriculum development data. |
-| [`AddDegreesAndJobs`](<INSERT_LINK_HERE>) | Captures student degrees and employment data. |
-| [`AddAwardsAndRecognition`](<INSERT_LINK_HERE>) | Logs awards and recognitions. |
-| [`AddIntellectualProperty`](<INSERT_LINK_HERE>) | Records IP and licensing details. |
-| [`AddTechnologyTransfer`](<INSERT_LINK_HERE>) | Captures technology transfer data. |
-| [`AddSpinOffCompanies`](<INSERT_LINK_HERE>) | Logs data on startup companies. |
-| [`AddPersonnel`](<INSERT_LINK_HERE>) | Captures personnel-related data. |
-| [`useDataRange`](<INSERT_LINK_HERE>) | Debug function to log spreadsheet data. |
+| [`Code.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/create.gs>) | Handles creation of  |
+| [`AddMainRecord`](<https://github.com/shravaninindra/ASPIRE/blob/main/onFormSubmit.gs>) | Handles logging to the "Landing Page" sheet. |
+| [`AddPublicationRecord`](<https://github.com/shravaninindra/ASPIRE/blob/main/writeRecords.gs>) | Handles publication entries. |
 
 ---
