@@ -1,5 +1,5 @@
-var instanceName= 'myinstance';
-var rootPwd= 'aspire123';
+var instanceName= 'YOUR_INSTANCE_NAME';
+var rootPwd= 'YOUR_PASSWORD';
 
 var connectionName = '#YOUR_CONNECTION_NAME';
 var user = 'YOUR_USER';
