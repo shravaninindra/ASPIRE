@@ -1,13 +1,7 @@
 # ASPIRE
 # Google Form Automation Script for Data Logging
 
-This repository contains a Google Apps Script project that  automates the handling of form submissions for various categories. When a user submits a response through the Google Form, the script extracts relevant data and appends it to the appropriate sheet in a Google Spreadsheet based on the type of submission. These records are then 
-
-## Features
-
-- Handles multiple form response categories
-- Appends data to different Google Sheets tabs
-- Supports extensive form structures like Publications, Events, Awards, Spin-offs, etc.
+This repository contains three Google Apps Scripts that automates the handling of form submissions for various categories. Firstly relevant databases, users with necessary permissions and tables are created to store the details. When a user submits a response through the Google Form, the script extracts relevant data and appends it to the appropriate sheet in a Google Spreadsheet based on the type of submission. These records are then taken and entered into the respective tables on cloud using CloudSQL for further processing.
 
 ---
 
@@ -15,8 +9,8 @@ This repository contains a Google Apps Script project that  automates the handli
 
 | File Name | Description | Link |
 |----------|-------------|------|
-| [`Code.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/create.gs>) | Handles creation of  |
-| [`AddMainRecord`](<https://github.com/shravaninindra/ASPIRE/blob/main/onFormSubmit.gs>) | Handles logging to the "Landing Page" sheet. |
-| [`AddPublicationRecord`](<https://github.com/shravaninindra/ASPIRE/blob/main/writeRecords.gs>) | Handles publication entries. |
+| [`Code.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/create.gs>) | Handles creation of database, users, tables on MySQL instance. |
+| [`onFormSubmit.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/onFormSubmit.gs>) | Handles form submissions and append it to relevant sheet tabs. |
+| [`writeRecords.gs`](<https://github.com/shravaninindra/ASPIRE/blob/main/writeRecords.gs>) | Handles the logging of entries into respective tables in the database. |
 
 ---
