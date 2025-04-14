@@ -1,11 +1,11 @@
-var instanceName= 'myinstance';
-var rootPwd= 'aspire123';
+var instanceName= '#YOUR_INSTANCE';
+var rootPwd= 'YOUR_PASSWORD';
 
-var connectionName = 'aspire-308816:us-central1:myinstance';
-var user = 'shravani';
-var userPwd = 'aspire123';
-var db = 'aspire';
-var root = 'root';
+var connectionName = 'YOUR_CONNECTION_NAME';
+var user = 'YOUR_USER';
+var userPwd = 'YOUR_PASSWORD';
+var db = 'YOUR_DB';
+var root = 'YOUR_ROOT_USER';
 var instanceUrl = 'jdbc:google:mysql://' + connectionName;
 var dbUrl = instanceUrl + '/' + db;
 
